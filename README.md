@@ -1,5 +1,6 @@
 # Sudoku solver
 # Idea
+Having a broader look at sudoku problem, we can notice that it is a special case
 The approach implemented in this solution was proposed by Donald E. Knuth in the paper [Dancing Links, Stanford, 2000](https://www.ocf.berkeley.edu/~jchu/publicportal/sudoku/0011047.pdf) also know as "Algorithm X"
 ## To run the code:
 1. clone this respository
@@ -25,4 +26,3 @@ The approach implemented in this solution was proposed by Donald E. Knuth in the
 7 0 0 0 0 0 8 0 0<br>
 0 1 0 0 0 9 0 0 0<br>
 0 0 2 5 4 0 0 0 0<br>
-**

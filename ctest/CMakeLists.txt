@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.14.0 FATAL_ERROR)
+
+add_executable(ctest_exe_matrix_4x4 matrix_4x4.cpp)
+add_executable(ctest_exe_matrix_9x9 matrix_9x9.cpp)
+add_executable(ctest_exe_matrix_16x16 matrix_16x16.cpp)
+add_executable(ctest_exe_matrix_25x25 matrix_25x25.cpp)
+
+
+target_link_libraries(ctest_exe_matrix_4x4 DLXSolver_lib)
+target_link_libraries(ctest_exe_matrix_9x9 DLXSolver_lib)
+target_link_libraries(ctest_exe_matrix_16x16 DLXSolver_lib)
+target_link_libraries(ctest_exe_matrix_25x25 DLXSolver_lib)
+
+add_test(test_matrix_4x4 ctest_exe_matrix_4x4)
+add_test(test_matrix_9x9 ctest_exe_matrix_9x9)
+add_test(test_matrix_16x16 ctest_exe_matrix_16x16)
+add_test(test_matrix_25x25 ctest_exe_matrix_25x25)
