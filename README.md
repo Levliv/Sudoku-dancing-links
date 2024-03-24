@@ -7,7 +7,7 @@ The approach implemented in this solution was proposed by Donald E. Knuth in the
 3. Make sure you have CMake installed and path set
 4. In project root create Build directory `mkdir Build`
 5. Move to newly created directory `cd Build`
-6. Generate Makefile: `cmake ../ -G"MinGW Makefiles`
+6. Generate Makefile: `cmake ../ -G"MinGW Makefiles"`
 7. Build the project: `cmake --build .`
 8. OPTIONAL: Run the tests: `ctest`
 9. Put file with input data `input.txt` into Build directory (example of input.txt provided below)
