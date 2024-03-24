@@ -6,7 +6,7 @@ The approach implemented in this solution was proposed by Donald E. Knuth in the
 2. Make sure you have MinGW (gcc and g++ compilers) installed and paths set
 3. Make sure you have CMake installed and path set
 4. In project root create Build directory `mkdir Build`
-5. Move to newly create directory `cd Build`
+5. Move to newly created directory `cd Build`
 6. Generate Makefile: `cmake ../ -G"MinGW Makefiles`
 7. Build the project: `cmake --build .`
 8. OPTIONAL: Run the tests: `ctest`
