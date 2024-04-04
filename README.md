@@ -35,3 +35,5 @@ The approach was proposed by Donald E. Knuth in the paper [Dancing Links, Stanfo
 7 0 0 0 0 0 8 0 0<br>
 0 1 0 0 0 9 0 0 0<br>
 0 0 2 5 4 0 0 0 0<br>
+
+P.S. Here zeros stand for unknown numbers
